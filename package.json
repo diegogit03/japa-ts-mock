@@ -1,0 +1,28 @@
+{
+  "name": "japa-ts-mock",
+  "version": "1.0.0",
+  "description": "A mock library built on top of ts-mockito",
+  "main": "build/index.js",
+  "files": [
+    "build/index.d.ts",
+    "build/index.js"
+  ],
+  "keywords": [
+    "testing",
+    "japa",
+    "plugin"
+  ],
+  "author": "Diego Henrique de Oliveira Madero",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "ts-mockito": "^2.6.1"
+  },
+  "devDependencies": {
+    "@adonisjs/mrm-preset": "^5.0.3",
+    "@japa/runner": "^2.0.3",
+    "typescript": "^4.6.2"
+  }
+}
